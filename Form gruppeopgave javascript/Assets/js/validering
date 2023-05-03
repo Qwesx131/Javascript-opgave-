@@ -1,0 +1,14 @@
+function checkLoginForm(fieldset) {
+    fNavn = document.getElementById("fName");
+    eNavn = document.getElementById("eName");
+    if(fNavn.value.length < 2) {
+        alert("Fornavn skal indeholde mindst 2 karakter");
+        fNavn.focus();
+        return false;
+    }
+            if (eNavn.value.length < 2) {
+                alert("Efternavn skal indeholde mindst 2 karakter")
+                eNavn.focus();
+                return false;
+            }
+            }

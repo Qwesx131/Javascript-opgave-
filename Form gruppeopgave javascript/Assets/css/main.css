@@ -1,0 +1,6 @@
+.notValid{
+    border: 2px solid #f00;
+}
+.Valid{
+    border: 2px solid green;
+}

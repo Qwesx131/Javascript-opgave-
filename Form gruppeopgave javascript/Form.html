@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="Assets/css/main.css">
+<script src="Assets/js/validering" defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform" id="myForm" onsubmit="return checkLoginForm('myForm');" action="">
+        <fieldset>
+        <input type="text" placeholder="Fornavn" id="fName" class="notValid" name="fname" >  <br>
+        <input type="text" placeholder="Efternavn" id="eName" class="notValid"> <br>
+        <input type="text" name="" id="eMail" placeholder="E-mail" > <br>   
+        <button id="submitButt" value="Indsend">Submit</button>
+             
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
